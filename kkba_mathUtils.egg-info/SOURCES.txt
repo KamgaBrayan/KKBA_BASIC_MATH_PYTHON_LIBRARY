@@ -1,0 +1,8 @@
+README.md
+setup.py
+kkba_mathUtils/__init__.py
+kkba_mathUtils/myfunctions.py
+kkba_mathUtils.egg-info/PKG-INFO
+kkba_mathUtils.egg-info/SOURCES.txt
+kkba_mathUtils.egg-info/dependency_links.txt
+kkba_mathUtils.egg-info/top_level.txt
