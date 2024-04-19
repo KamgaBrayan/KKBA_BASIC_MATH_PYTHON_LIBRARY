@@ -1,24 +1,43 @@
-    """
-    Calculate the mean of a list of numbers.
+# kkba-mathUtils
 
-    Args:
-        list (list): A list of numbers.
+This Python library, kkba-mathUtils, provides various math utility functions for common mathematical operations.
 
-    Returns:
-        float: The mean of the list.
+## Installation
 
-    Example:
-        >>> mean_of_list([1, 2, 3, 4, 5])
-        3.0
-    """
+You can install the library using pip by running the following command in your terminal:
+
+```bash
+pip install -i https://test.pypi.org/simple/ kkba-mathUtils
 
 
-    """
-    Calculates the harmonic mean of a list of numbers.
+## Usage
 
-    Parameters:
-    - list (list): A list of numbers.
+Once the library is installed, you can import it in your Python code using the following statement:
 
-    Returns:
-    - float: The harmonic mean of the numbers in the list.
-    """
+```python
+from kkba_mathUtils import kkba_mathUtils
+```
+
+Here are some examples of how you can use the library:
+
+```python
+print(kkba_mathUtils.mean_of_list([1, 2, 3, 4, 5]))
+
+Returns 3.0
+```
+
+## Available Functions
+
+The `kkba_mathUtils` library provides the following functions:
+
+//
+
+
+## Contributing
+
+If you would like to contribute to this project, you can fork the repository and submit a pull request. Your contributions are always welcome!
+Please feel free to submit any issues or feature requests on the Github repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
