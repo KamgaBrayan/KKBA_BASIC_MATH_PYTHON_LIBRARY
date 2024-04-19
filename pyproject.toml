@@ -19,5 +19,4 @@ classifiers = [
 keywords = ["mathematics", "maths", "mean", "operations", "gcd", "arithmetic", "quadratic"]
 
 [project.urls]
-Homepage = "https://github.com/pypa/KKBA_BASIC_MATH_PYTHON_LIBRARY"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/KamgaBrayan/KKBA_BASIC_MATH_PYTHON_LIBRARY"
