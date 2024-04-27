@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kkba_mathUtils"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
   { name="Kuate Brayan", email="brayanarmel@gmail.com" },
 ]
@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-keywords = ["mathematics", "maths", "mean", "operations", "gcd", "arithmetic", "quadratic"]
+keywords = ["mathematics", "maths", "mean", "operations", "area", "perimeter", "arithmetic", "quadratic"]
 
 [project.urls]
 Homepage = "https://github.com/KamgaBrayan/KKBA_BASIC_MATH_PYTHON_LIBRARY"
