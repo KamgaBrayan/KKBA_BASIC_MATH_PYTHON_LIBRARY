@@ -14,7 +14,7 @@ def perimeter_rectangle(length, width):
 def regular_polygon_perimeter(side_length, num_sides):
     return num_sides * side_length
 
-# Examples for regular polygons:
+# Examples for perimeters of regular polygons:
 # Pentagon
 def pentagon_perimeter(side_length):
     return regular_polygon_perimeter(side_length, 5)

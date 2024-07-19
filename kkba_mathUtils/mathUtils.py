@@ -358,3 +358,6 @@ def compound_interest(principal, rate, times_compounded, years):
 # Function to calculate the continuous compound interest
 def continuous_compound_interest(principal, rate, years):
     return principal * math.exp(rate * years)
+
+def is_equal(num1, num2, tolerance):
+    return abs(num1 - num2) < tolerance

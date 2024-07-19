@@ -103,7 +103,7 @@ The library is divided into the following packages:
 | radians_to_degrees | radians: Float or Integer | Converts radians to degrees |
 | compound_interest | principal, rate, times_compounded, years: Floats or Integers | Calculates the compound interest |
 | continuous_compound_interest | principal, rate, years: Floats or Integers | Calculates the continuous compound interest |
-
+| is_equal | num1, num2: Floats or Integers, tolerance: Float or Integer | Returns True if the difference between num1 and num2 is less than the specified tolerance, otherwise False |
 
 ### area Package
 
