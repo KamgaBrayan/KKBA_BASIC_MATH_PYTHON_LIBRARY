@@ -9,9 +9,6 @@ classifiers = [
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.5',
 ]
 # read the contents of your README file
 from pathlib import Path
@@ -21,10 +18,10 @@ this_directory = Path(__file__).parent
 setup(
     name='kkba_mathUtils',
     packages=find_packages(include=['kkba_mathUtils']),
-    version='0.0.1',
+    version='2.0.0',
     description='My basic mathematics Python library',
     author='Kuate Brayan',
-    author_email='brayanarmel@gmail.com'
+    author_email='brayanarmel@gmail.com',
     install_requires=[],
     setup_requires=['pytest-runner'],
     tests_require=['pytest==4.4.1'],
@@ -32,7 +29,5 @@ setup(
     classifiers=classifiers,
     keywords='mathematics library',
     # other arguments omitted
-    long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
-    packages=find_packages(),
-    
+    long_description=open('README.md').read(),
 )
