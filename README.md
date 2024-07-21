@@ -178,7 +178,7 @@ mass_converted = converter.convert_units(500, 'g', 'lb', mass_conversion)
 print(f"500 g is {mass_converted} pounds")
 
 # Temperature conversion example: 100 C to F
-temp_converted = convert_temperature(100, 'C', 'F')
+temp_converted = converter.convert_temperature(100, 'C', 'F')
 print(f"100 C is {temp_converted} F")
 
 ```
